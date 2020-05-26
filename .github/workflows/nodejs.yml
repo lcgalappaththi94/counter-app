@@ -29,4 +29,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: INSTALL_CMD="npm install" HAPPO_IS_ASYNC=true npm run happo-ci
+      - run: npm install
+      - run: HAPPO_IS_ASYNC=true npm run happo-ci
