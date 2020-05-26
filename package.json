@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "11.10.0",
+    "node": "12.x",
     "npm": "6.7.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/lcgalappaththi94/counter-app",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "happo": "happo",
-    "happo-ci": "happo-ci"
+    "happo-ci": "BASE_BRANCH=\"origin/master\" happo-ci"
   },
   "eslintConfig": {
     "extends": "react-app"
