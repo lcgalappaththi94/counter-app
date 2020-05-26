@@ -10,7 +10,7 @@ const NavBar = ({ totalCounters }) => {
         <span className="badge badge-pill badge-info m-2" style={{ width: 50 }}>
           {totalCounters}
         </span>
-        Item
+        Items
       </div>
     </nav>
   );
