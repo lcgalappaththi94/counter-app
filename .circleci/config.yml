@@ -10,3 +10,7 @@ jobs:
       - run:
           name: happo
           command: npm run happo-ci-circleci
+workflows:
+    build:
+      jobs:
+        - build
